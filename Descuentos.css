@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:'DM Snans', sans-serif;
+}
+header{
+	display: flex;
+	background-color: dimgrey;
+	color: whitesmoke;
+	flex-direction: column;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	height: 13vh;
+	padding-top: 1rem;
+}
+
+
+section {
+	background-color: dimgrey;
+	display: flex;
+	color: whitesmoke;
+	align-items:center;
+	text-align: center;
+	width: 100vw;
+	height: 100vw;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+
+label {
+	 margin: 1rem;
+	 font-size: 1.5rem;
+	 display: flex;
+	 text-align: center;
+}
+
+input, button {
+	border-radius: 2rem;
+	height: 4rem;
+	background-color: whitesmoke;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 0.1rem;
+	display: flex;
+
+}
+
+input{
+	padding: 2rem;
+	margin: 1rem;
+}
+
+button{
+	cursor: pointer;
+	padding: 1rem;
+	margin: 1rem;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+button:hover{ 
+	background-color: lightgrey;
+ }
+
+ input:hover{
+ 	background-color: lightgrey;
+ }
+
+#resultP {
+	font-size: 10rem;
+}
